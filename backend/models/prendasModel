@@ -1,0 +1,13 @@
+var pool = require('./bd');
+
+async function getPrendas() {
+    try {
+        var query = 'SELECT prendaid, prenda FROM integrador.tipoprendas';
+        var rows = await pool.query(query);
+        return rows;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+module.exports = {getPrendas}

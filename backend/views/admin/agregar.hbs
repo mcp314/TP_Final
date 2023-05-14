@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-6 offset-3">
+        <h4>Agregar una nueva novedad</h4>
+        <div class="container" style="margin:100px auto">
+            <form class="row g-3 needs-validation" novalidate action="/admin/novedades/agregar" method="post">
+                <div class="mb-2 row">
+                    <select class="form-control" id="exampleFormControlSelect1" name="prendaid">
+                        <option value="1">Pantalón</option>
+                        <option value="2">Remera</option>
+                        <option value="3">Pollera</option>
+                        <option value="4">Blusa</option>
+                        <option value="5">Zapatos</option>
+                        <option value="6">Botas</option>
+                        <option value="7">Cartera</option>
+                        <option value="8">Campera</option>
+                        <option value="9">Sweater</option>
+                        <option value="10">Saco</option>
+                    </select>
+                </div>
+                <div class="mb-2 row">
+                    <select class="form-control" id="exampleFormControlSelect1" name="marcaid">
+                        <option value="1">Wrangler</option>
+                        <option value="2">Levis</option>
+                        <option value="3">Prune</option>
+                        <option value="4">Chanel</option>
+                        <option value="5">Dolce Gabanna</option>
+                        <option value="6">Gucci</option>
+                        <option value="7">Dior</option>
+                        <option value="8">Prada</option>
+                        <option value="9">LouisVuitton</option>
+                        <option value="10">Balenciaga</option>
+                    </select>
+                </div>
+                <div class="mb-2 row">
+                    <textarea type="text" class="form-control" placeholder="Talle" name="talle"></textarea>
+                </div>
+                <div class="mb-3 row">
+                    <textarea type="text" class="form-control" placeholder="descripcion" name="descripcion"></textarea>
+                </div>
+                <div class="mb-3 row">
+                    <textarea type="number" class="form-control" placeholder="Precio" name="precio"></textarea>
+                </div>
+                <div class="mb-3 row">
+                    <select class="form-control" id="exampleFormControlSelect1" name="estado">
+                        <option value="1">Disponible</option>
+                        <option value="2">Reservado</option>
+                        <option value="3">Vendido - en envío</option>
+                        <option value="4">Vendido - entregado</option>
+                        <option value="5">Eliminado</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>
