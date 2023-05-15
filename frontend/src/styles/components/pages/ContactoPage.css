@@ -12,7 +12,8 @@
 }
 
 .datos ul li {
-    font-size: 13px;
+    font-size: 18px;
+    list-style: none;
 }
 
 .formulario p {

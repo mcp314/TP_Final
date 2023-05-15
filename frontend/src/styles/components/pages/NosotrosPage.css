@@ -1,10 +1,15 @@
 .historia {
     font-size: 12px;
+    text-align: justify;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .personas {
     display: flex;
     justify-content: space-between;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .persona {
