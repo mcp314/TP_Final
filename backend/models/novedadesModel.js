@@ -2,7 +2,7 @@ var pool = require('./bd');
 
 async function getNovedades() {
     try {
-        var query = 'SELECT o.id, t.prenda , m.Marca, o.talle, o.descripcion, o.precio, e.estado FROM integrador.ofertas o left join marcas m on o.marcaid = m.marcaid left join tipoprendas t on o.prendaid = t.prendaid  left join estados e on o.estado = e.estadoid order by o.id desc';
+        var query = 'SELECT o.id, t.prenda , m.Marca, o.talle, o.descripcion, o.precio, e.estado, o.imageid FROM integrador.ofertas o left join marcas m on o.marcaid = m.marcaid left join tipoprendas t on o.prendaid = t.prendaid  left join estados e on o.estado = e.estadoid order by o.id desc';
         var rows = await pool.query(query);
         return rows;
     } catch (error) {

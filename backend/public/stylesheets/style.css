@@ -1,3 +1,22 @@
+header {
+  background-color: #2e64a1;
+  padding: 16px 0;
+  height: 7rem;
+}
+.holder{
+  position: relative;
+  bottom: 0.8rem;  
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 10px;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +24,14 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+
+footer {
+  background-color: #ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 20px;
 }

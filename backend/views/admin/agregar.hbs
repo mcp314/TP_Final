@@ -2,7 +2,7 @@
     <div class="col-6 offset-3">
         <h4>Agregar una nueva novedad</h4>
         <div class="container" style="margin:100px auto">
-            <form class="row g-3 needs-validation" novalidate action="/admin/novedades/agregar" method="post">
+            <form class="row g-3 needs-validation" novalidate action="/admin/novedades/agregar" method="post" enctype="multipart/form-data" />
                 <div class="mb-2 row">
                     <select class="form-control" id="exampleFormControlSelect1" name="prendaid">
                         <option value="1">Pantalón</option>
@@ -48,6 +48,9 @@
                         <option value="4">Vendido - entregado</option>
                         <option value="5">Eliminado</option>
                     </select>
+                </div>
+                <div class="form-group">
+                    <label>Imagen: <input type="file" name="imagen" id="imagen " /></label>
                 </div>
                 <button class="btn btn-primary" type="submit">Guardar</button>
             </form>
