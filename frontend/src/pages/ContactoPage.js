@@ -72,8 +72,8 @@ const ContactoPage = (props) =>{
         <ul>
           <li><FaMailBulk  /><a href="mailto:mcp314@gmail.com">mail: contacto@colibri.com.ar</a></li>
           <li><FaWhatsapp /><a href="https://wa.me/2215430858/">2215430858</a></li>
-          <li><FaInstagram  /><a href="http://facebook.com">LookAgain</a></li>
-          <li><FaFacebookSquare  /><a href="http://instagram.com">LookAgain</a></li>
+          <li><FaInstagram  /><a href="http://instagram.com">LookAgain</a></li>
+          <li><FaFacebookSquare  /><a href="https://es-la.facebook.com/">LookAgain</a></li>
         </ul>
       </div>
      </main>
